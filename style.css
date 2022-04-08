@@ -99,7 +99,7 @@ h1 {
     margin-left: auto;
     margin-bottom: auto;
     background-color: aquamarine;
-    width: 10vw;
+    
     font-size: large;
     justify-content: center;
     align-items: center;
@@ -108,6 +108,7 @@ h1 {
     border-width: 2px;
     border-color: black;
     border-radius: 20%;
+    min-width: 40px;
 }
 
 .info-title {
@@ -158,6 +159,7 @@ h1 {
     height: 20vh;
     display: flex;
     flex-wrap: wrap;
+    flex: 0 0 auto;
     justify-content: center;
     align-items: center;
     padding: 50px;
@@ -174,6 +176,7 @@ h1 {
     background-color: lightblue;
 
 }
+
 
 .sign-up-2 {
     display: flex;
