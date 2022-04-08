@@ -30,3 +30,84 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.big-image {
+    display: flex;
+    background-color: grey;
+    flex-direction: row-reverse;
+    position: relative;
+    height: max-content;
+    align-items: center;
+}
+
+
+.space {
+    display: flex;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30vw;
+    height: 30vh;
+    margin: 5%;
+}
+
+.text {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    width: 40vw;
+    margin-top: 5%;
+}
+
+.img-text {
+    border-style: solid;
+    border-width: 3px;
+    border-color: aquamarine;
+    padding: 5px;
+    position: relative;
+    width:100%;
+    margin-bottom: 0;
+    max-height: fit-content;
+    height: max-content;
+    font-size: large;
+}
+h1 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    color:aquamarine;
+}
+
+
+.sign-up {
+    display: flex;
+    position: relative;
+    margin-top: 2vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    background-color: aquamarine;
+    width: 10vw;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+
