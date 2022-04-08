@@ -122,6 +122,7 @@ h1 {
 .random-info {
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 52px;
     background-color: lightslategray;
@@ -129,6 +130,7 @@ h1 {
 
 .tiles {
     margin-top:5%;
+    min-width: 200px;
     max-width: 200px;
     text-align: center;
     border-style: solid;
@@ -139,6 +141,7 @@ h1 {
 
 .tile-image {
     max-width: 200px;
+    min-width: 200px;
     height: 150px;
 }
 
@@ -148,6 +151,31 @@ h1 {
     font-size: large;
 }
 
+.quote {
+    margin-top: 0vh;
+    background-color: gray;
+    margin-bottom: 5vh;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
 
+.p-quote {
+    font-style: italic;
+}
 
+.call-to-action {
+    margin: 10%;
+    margin-bottom: 20%;
+    background-color: lightblue;
+
+}
+
+.sign-up-2 {
+    display: flex;
+}
 
