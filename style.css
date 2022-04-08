@@ -110,4 +110,44 @@ h1 {
     border-radius: 20%;
 }
 
+.info-title {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    color: aquamarine;
+    font-size: larger;
+    background-color: lightslategray;
+}
+
+.random-info {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    background-color: lightslategray;
+}
+
+.tiles {
+    margin-top:5%;
+    max-width: 200px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 3%;
+    background-color: aquamarine;
+}
+
+.tile-image {
+    max-width: 200px;
+    height: 150px;
+}
+
+.info-text {
+    background-color: aquamarine;
+    margin-top: 0;
+    font-size: large;
+}
+
+
+
 
