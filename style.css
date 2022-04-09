@@ -2,6 +2,10 @@
     background-color:aquamarine;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
 }
 
 .logo {
@@ -32,7 +36,7 @@ a {
 }
 
 .footer {
-    position: fixed;
+  
     bottom: 0;
     display: flex;
     height: 5vh;
@@ -43,6 +47,7 @@ a {
 }
 
 .big-image {
+    margin-top: 5vh;
     display: flex;
     background-color: grey;
     flex-direction: row-reverse;
@@ -105,7 +110,7 @@ h1 {
     align-items: center;
     height: 5vh;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-color: black;
     border-radius: 20%;
     min-width: 40px;
@@ -144,6 +149,8 @@ h1 {
     max-width: 200px;
     min-width: 200px;
     height: 150px;
+    border-bottom-style: solid;
+    border-width: 5px;
 }
 
 .info-text {
@@ -159,7 +166,7 @@ h1 {
     height: 20vh;
     display: flex;
     flex-wrap: wrap;
-    flex: 0 0 auto;
+    
     justify-content: center;
     align-items: center;
     padding: 50px;
@@ -172,13 +179,35 @@ h1 {
 
 .call-to-action {
     margin: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
     background-color: lightblue;
-
+    text-align: center;
+  
 }
 
 
 .sign-up-2 {
-    display: flex;
+    
+    justify-self: center;
+    background-color: aquamarine;
+    font-size: large;
+    padding: 10px;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
 }
 
+
+
+
+b {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+html {
+    background-color: lightblue;
+}
